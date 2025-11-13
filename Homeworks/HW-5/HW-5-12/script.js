@@ -1,0 +1,8 @@
+const swap = (arr, index1, index2) => {
+    const temp = arr[index1];
+    arr[index1] = arr[index2];
+    arr[index2] = temp;
+    return arr;
+};
+const numbers = [10, 20, 30];
+console.log(swap(numbers, 0, 2));
