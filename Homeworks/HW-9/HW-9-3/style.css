@@ -1,0 +1,7 @@
+.course-block {
+    border: 2px solid pink;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+}
